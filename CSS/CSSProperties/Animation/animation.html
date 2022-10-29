@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      height: 200px;
+      width: 200px;
+      background-color: brown;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-delay: 2s;
+
+    }
+    @keyframes example{
+      /* from{
+        background-color: brown;
+      }
+      to{
+        background-color: blue;
+        height: 300px;
+        width: 300px;
+      } */
+      0%{
+        background-color: brown;
+      }
+      25%{
+        background-color: blue;
+        height: 250px;
+        width: 250px;
+      }
+      50%{
+        background-color: yellow;
+        height: 300px;
+        width: 300px;
+      }
+      75%{
+        background-color: green;
+        height: 400px;
+        width: 400px;
+      }
+      100%{
+        background-color: orangered;
+        height: 450px;
+        width: 450px;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
