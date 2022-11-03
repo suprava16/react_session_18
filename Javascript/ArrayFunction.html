@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <script>
+  var arr1=[30,40,10,70,23,69]
+  var arr2=["Riya","sima","rinky","Aman","Tony","Rahul","Aman","Gita"]
+
+  //concat() -used to combine two array
+  // var arr3=arr1.concat(arr2)
+  // document.write(arr3);
+
+
+//join()-used to add separator in between the array elements
+ //document.write(arr1.join(" "))
+
+//push() -used to add data at the end of our array
+// document.write(arr2+"<br>")
+// arr2.push("XYZ")
+// arr2.push("pqr")
+// document.write(arr2)
+
+//pop()-used to remove data from the end of our array
+// document.write(arr2+"<br>")
+// arr2.pop()
+// document.write(arr2+"<br>")
+// arr2.pop()
+// document.write(arr2+"<br>")
+
+// slice()- used to get specified array elements.It has two arguments- starting index value and and end index value
+// document.write(arr2+"<br>")
+// var x=arr2.slice(-3,-2)
+// document.write(x)
+
+// splice()-used to insert and delete array elements.It has 3 arguments - startindex value,delete count and number of value wants to insert
+//document.write(arr2+"<br>")
+//arr2.splice(2,0,"XYZ","PQR")
+// arr2.splice(1,1)
+// document.write(arr2)
+
+//indexOf()-return index value of an element
+// var a=arr2.indexOf("Aman")
+// document.write(a+"<br>")
+
+//lastIndexOf()
+var a=arr2.lastIndexOf("Aman")
+document.write(a)
+
+ </script> 
+</body>
+</html>
